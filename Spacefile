@@ -1,0 +1,7 @@
+v: 1
+micros:
+- name: fastapi_micro_example
+  src: .
+  engine: python3.9
+  public_routes:
+    - '/**'
