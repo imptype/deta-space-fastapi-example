@@ -23,6 +23,10 @@ Alternatively, you can use [Google Cloud Shell](https://shell.cloud.google.com) 
     - Custom domains are available and custom subdomains are coming in the future.
     
 # Limits
-Micros have a timeout limit of 10 seconds = you only have 10 seconds to process a request. 
+Micros:
+- 10s limit
+- shared aws ip
+- 256mb dependency size
+- ephemeral file system
 
 There were other limits but they were removed/no need to worry about: https://deta.space/limits
